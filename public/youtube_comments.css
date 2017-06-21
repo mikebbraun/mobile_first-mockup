@@ -79,13 +79,13 @@ body {
 }
 
 .main {
-  margin-top: 8em;
   color: black;
   width: 80%;
   border-style: solid;
   background-color: grey;
   float: left;
-  margin-right: .5em;
+  margin: .5em;
+  margin-top: 8em;
   z-index: 0;
 }
 
@@ -147,11 +147,13 @@ body {
 /* Footer */
 
 footer {
-  color: black;
-  border-style: solid;
-  margin-top: .5em;
-  margin-bottom: 2em;
-  padding: 4em 2em;
+  color: white;
+  background-color: grey;
+  bottom: -1;
+  margin-top: 1em;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 2em;
   float: left;
 }
 
