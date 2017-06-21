@@ -1,0 +1,72 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none; /* gets rid of bullet points */
+}
+a {
+  text-decoration: none; /* removes the underline */
+}
+/* header */
+header {
+  background-color: #4c362c;
+}
+header a, header a:visited, header a:active {
+  color: white;
+}
+header a:hover {
+  color: lightgrey;
+}
+header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header li {
+  padding: 1.5em;
+}
+/* title */
+h1 {
+  text-align: center;
+}
+/* artcle */
+article {
+  padding: 0 .75em;
+}
+/* events */
+.event {
+  padding: .75em;
+}
+.event img {
+  width: 100%;
+}
+/* footer */
+footer {
+  background-color: #4c362c;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  display: flex;
+}
+footer li {
+  padding: 1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* reset */
+
+  /* article */
+  /* footer */
+  /* header */
+  header ul {
+    justify-content: space-around;
+  }
+
+  /* events */
+  #events {
+    display: flex;
+  }
+}
