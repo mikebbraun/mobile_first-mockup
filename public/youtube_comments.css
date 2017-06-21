@@ -67,26 +67,27 @@ body {
   display: inline-block;
 }
 
+.main {
+  color: black;
+  width: 50%;
+  border-style: solid;
+  background-color: grey;
+  margin-top: 8em;
+  margin-left: 4em;
+  margin-right: 4em;
+  float: left;
+  z-index: 0;
+}
 .sideRight {
   border-style: solid;
   color: black;
-  width: 18%;
+  width: 20%;
   margin-top: 8em;
+  margin-right: 4em;
   padding-top: .25em;
   padding-left: .5em;
   padding-right: .5em;
   float: left;
-}
-
-.main {
-  color: black;
-  width: 80%;
-  border-style: solid;
-  background-color: grey;
-  float: left;
-  margin: .5em;
-  margin-top: 8em;
-  z-index: 0;
 }
 
 .video {
